@@ -7,8 +7,8 @@
 clear
 echo -e "\e[1;31m" 
 echo "Hit ENTER to continue..."read 
-echo -e "\e[0m"mv /data/data/com.termux/files/usr/etc/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bash_old
-cp -v bash.bashrc /data/data/com.termux/files/usr/etc/bash.bash
+echo -e "\e[0m"mv /data/data/com.termux/files/usr/etc/bash.bash/data/data/com.termux/files/usr/etc/bash.bash_old
+cp -v bash.bash /data/data/com.termux/files/usr/etc/bash.bash
 clear 
 
 apt-get update && apt-get upgrade -y
@@ -37,7 +37,7 @@ echo "[*] Preparing files"
 sleep 2
 echo "[*] Providing ROOT access"
 sleep 7
-sleep 8
+
 echo "[*] DONE" 
 
 sleep 1.5 
