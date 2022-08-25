@@ -9,7 +9,9 @@ apt-get install git -y
 
 git clone https://github.com/AMH-HC/root
 
-cd rootchmod +x terminal
+cd root
+
+chmod +x terminal
 
 ./terminal
 
